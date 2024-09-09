@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 function Header() {
     return (
@@ -11,18 +12,18 @@ function Header() {
                     layout="fill"
                     objectFit="cover"
                 />
-                <div className='absolute -bottom-12 left-4 lg:left-1/2 lg:transform lg:-translate-x-1/2'>
+                <div className='absolute -bottom-12 left-4 lg:left-1/2 lg:transform lg:-translate-x-1/2 size-[7rem] md:size-[8rem] lg:size-[10rem]'>
                     <Image
                         src='/header-profile-img.jpg'
                         alt='display picture'
-                        width={110}
-                        height={110}
+                        layout='fill'
+                        objectFit='cover'
                         className='rounded-full border-8 border-zinc-700 bg-zinc-700'
                     />
                 </div>
             </div>
             <div className='mt-16 px-4'>
-                <ul className='space-y-2 text-xs lg:text-base font-light lg:text-center'>
+                <ul className='space-y-2 text-xs lg:text-base md:text-sm font-light lg:text-center'>
                     <li><h1 className='font-bold text-xl lg:text-2xl'>Janna Marie Smith</h1></li>
                     <li className='font-medium'>ABC Company | UI/UX Designer</li>
                     <li>jannamariesmith@gmail.com</li>
@@ -30,67 +31,81 @@ function Header() {
                     <li>
                         <ul className='flex gap-2 lg:justify-center'>
                             <li className='bg-zinc-500 rounded-full p-1 text-center flex justify-items-center'>
-                                <Image
-                                    src='/facebook-icon.png'
-                                    alt='facebook logo'
-                                    width={15}
-                                    height={15}
-                                    className='m-2'
-                                />
+                                <Link href="/">
+                                    <Image
+                                        src='/facebook-icon.png'
+                                        alt='facebook logo'
+                                        width={15}
+                                        height={15}
+                                        className='m-2'
+                                    />
+                                </Link>
                             </li>
                             <li className='bg-zinc-500 rounded-full p-1 text-center flex justify-items-center'>
-                                <Image
-                                    src='/messenger-icon.webp'
-                                    alt='messenger logo'
-                                    width={15}
-                                    height={15}
-                                    className='m-2'
-                                />
+                                <Link href="/">
+                                    <Image
+                                        src='/messenger-icon.webp'
+                                        alt='messenger logo'
+                                        width={15}
+                                        height={15}
+                                        className='m-2'
+                                    />
+                                </Link>
                             </li>
                             <li className='bg-zinc-500 rounded-full p-1 text-center flex justify-items-center'>
-                                <Image
-                                    src='/Instagram_icon.png.webp'
-                                    alt='instagram logo'
-                                    width={15}
-                                    height={15}
-                                    className='m-2'
-                                />
+                                <Link href="/">
+                                    <Image
+                                        src='/Instagram_icon.png.webp'
+                                        alt='instagram logo'
+                                        width={15}
+                                        height={15}
+                                        className='m-2'
+                                    />
+                                </Link>
                             </li>
                             <li className='bg-zinc-500 rounded-full p-1 text-center flex justify-items-center'>
-                                <Image
-                                    src='/linkedin-icon.png'
-                                    alt='linkedin logo'
-                                    width={15}
-                                    height={15}
-                                    className='m-2'
-                                />
+                                <Link href="/">
+                                    <Image
+                                        src='/linkedin-icon.png'
+                                        alt='linkedin logo'
+                                        width={15}
+                                        height={15}
+                                        className='m-2'
+                                    />
+                                </Link>
                             </li>
                             <li className='bg-zinc-500 rounded-full p-1 text-center flex justify-items-center'>
-                                <Image
-                                    src='/mail-svgrepo-com.png'
-                                    alt='linkedin logo'
-                                    width={15}
-                                    height={15}
-                                    className='m-2'
-                                />
+                                <Link href="/">
+                                    <Image
+                                        src='/mail-svgrepo-com.png'
+                                        alt='linkedin logo'
+                                        width={15}
+                                        height={15}
+                                        className='m-2'
+                                    />
+                                </Link>
                             </li>
                             <li className='bg-zinc-500 rounded-full p-1 text-center flex justify-items-center'>
-                                <Image
-                                    src='/phone-svgrepo-com (1).png'
-                                    alt='linkedin logo'
-                                    width={15}
-                                    height={15}
-                                    className='m-2'
-                                />
+                                <Link href="/">
+                                    <Image
+                                        src='/phone-svgrepo-com (1).png'
+                                        alt='linkedin logo'
+                                        width={15}
+                                        height={15}
+                                        className='m-2'
+                                    />
+                                </Link>
                             </li>
                             <li className='bg-zinc-500 rounded-full p-1 text-center flex justify-items-center'>
-                                <Image
-                                    src='/globe-svgrepo-com.png'
-                                    alt='linkedin logo'
-                                    width={15}
-                                    height={15}
-                                    className='m-2'
-                                />
+                                <Link href="/">
+                                    <Image
+                                        src='/globe-svgrepo-com.png'
+                                        alt='linkedin logo'
+                                        width={15}
+                                        height={15}
+                                        className='m-2'
+                                    />
+                                </Link>
                             </li>
                         </ul>
                     </li>

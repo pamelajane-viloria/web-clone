@@ -6,10 +6,10 @@ function Content() {
         <div className='mt-5 px-4 flex lg:justify-center'>
             <div className='lg:w-[60vw]'>
                 <h2 className='text-center font-bold text-purple-600 text-2xl'>ABC Company</h2>
-                <ul className='text-xs lg:text-sm flex flex-col gap-1'>
-                    <li className='font-bold text-sm lg:text-base mt-3'>Company Overview</li>
+                <ul className='text-xs md:text-sm lg:text-sm flex flex-col gap-1'>
+                    <li className='font-bold text-sm lg:text-lg md:text-base mt-3'>Company Overview</li>
                     <li className='font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat scelerisque lorem ac rutrum. Vestibulum vel dolor at purus feugiat semper.</li>
-                    <li className='font-bold text-sm lg:text-base mt-3'>Our Services</li>
+                    <li className='font-bold text-sm lg:text-lg md:text-base mt-3'>Our Services</li>
                     <li className='font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat scelerisque lorem ac rutrum. Vestibulum</li>
                     <li className='mt-3'>
                         <ul className='grid grid-rows-2 grid-flow-col gap-4'>
